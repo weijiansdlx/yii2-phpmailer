@@ -71,26 +71,26 @@ So, either run
 - for PHPMailer stable:
 
 ```
-php composer.phar require --prefer-dist gulltour/yii2-phpmailer "~1.0.0"
+php composer.phar require --prefer-dist gulltour/phpmailer "~1.0.0"
 ```
 
 - for dev:
 
 ```
-php composer.phar require --prefer-dist gulltour/yii2-phpmailer "~1.0.0"
+php composer.phar require --prefer-dist gulltour/phpmailer "~1.0.0"
 ```
 
 
 or add respectively:
 
 ```
-"gulltour/yii2-phpmailer": "~1.0.0"
+"gulltour/phpmailer": "~1.0.0"
 ```
 
 or
 
 ```
-"gulltour/yii2-phpmailer": "~1.0.0"
+"gulltour/phpmailer": "~1.0.0"
 ```
 
 to the require section of your composer.json.
