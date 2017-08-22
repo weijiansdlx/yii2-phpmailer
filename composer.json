@@ -1,0 +1,28 @@
+{
+    "name": "gulltour/phpmailer",
+    "type": "yii2-extension",
+    "description": "Phpmailer extension for the Yii framework",
+    "keywords": ["yii2", "phpmailer", "mail", "email", "mailer"],
+    "homepage": "https://github.com/weijiansdlx/yii2-phpmailer",
+    "license": "BSD 3-Clause",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Wei Jian",
+            "email": "fancy.wei@qq.com",
+            "homepage": "https://github.com/weijiansdlx",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "phpmailer/phpmailer": "*",
+        "soundasleep/html2text": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "gulltour\\phpmailer\\": ""
+        }
+    }
+}
