@@ -5,15 +5,6 @@ yii2-phpmailer
 
 PHPMailer integration for Yii 2 framework
 -----------------------------------------
-
-[![Latest Stable Version](https://poser.pugx.org/zyx/zyx-phpmailer/v/stable.png)](https://packagist.org/packages/zyx/zyx-phpmailer)
-[![Latest Unstable Version](https://poser.pugx.org/zyx/zyx-phpmailer/v/unstable.png)](https://packagist.org/packages/zyx/zyx-phpmailer)
-[![Total Downloads](https://poser.pugx.org/zyx/zyx-phpmailer/downloads.png)](https://packagist.org/packages/zyx/zyx-phpmailer)
-[![License](https://poser.pugx.org/zyx/zyx-phpmailer/license.png)](https://packagist.org/packages/zyx/zyx-phpmailer)
-[![Code Climate](https://codeclimate.com/github/SDKiller/zyx-phpmailer.png)](https://codeclimate.com/github/SDKiller/zyx-phpmailer)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/SDKiller/zyx-phpmailer/badges/quality-score.png)](https://scrutinizer-ci.com/g/SDKiller/zyx-phpmailer/)
-
-===
 ### WARNING !!!
 
 Breaking backwards compatibility changes were introduced in Yii2 Framework (see https://github.com/yiisoft/yii2/issues/4071).
