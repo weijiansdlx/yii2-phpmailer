@@ -5,13 +5,15 @@
  * @license BSD 3-Clause, see LICENSE.md
  */
 namespace gulltour\phpmailer;
+use PHPMailer\PHPMailer\PHPMailer;
+
 /**
  * A wrapper class to resolve some inconsistencies across original PHPMailer versions
  * (i.e. some missing setters and getters, etc.)
  *
  * @package gulltour\phpmailer
  */
-class Adapter extends \PHPMailer
+class Adapter extends PHPMailer
 {
     /**
      * @var callable Advanced html2text converter
@@ -24,7 +26,7 @@ class Adapter extends \PHPMailer
      */
     public function getVersion()
     {
-        return $this->Version;
+        return self::VERSION;
     }
     /**
      * Sets the callback function to return results from PHPMailer (see PHPMailer property '$action_function')
